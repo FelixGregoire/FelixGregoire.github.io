@@ -90,18 +90,20 @@ footer > #footer-contact {
 
 #logo {
     display: inline-block;
-    width: 6rem;
-    height: 5rem;
+    width: 12rem;
+    height: 10rem;
     padding-right: 1rem;
 }
 
 #main-title {
     display: inline-block;
     vertical-align: middle;
+    font-size: 500%;
 }
 
 .topbar {
     padding: 3rem;
+    margin-bottom: 0.5rem;
     background-color: #ddd;
 }
 
@@ -110,12 +112,12 @@ footer > #footer-contact {
 }
 
 .navbar .navbar-nav {
-  float: none;
-  vertical-align: top;
+    display: inline-block;
+    vertical-align: top;
 }
 
-.navbar {
-  text-align: center;
+.navbar .navbar-collapse {
+    text-align: center;
 }
 
 body{
@@ -124,4 +126,64 @@ body{
 
 .jumbotron {
     background-color: #DDD;
+}
+
+.centered {
+  margin: auto;
+  text-align: center;
+}
+
+.right {
+  text-align: right;
+}
+
+.left {
+  text-align: left;
+}
+
+.inline {
+  display: inline;
+}
+
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
+.top {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.round-corners-theme {
+    border-radius: 10px;
+}
+
+.contact-element {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.navbar {
+	text-align:center;
+  font-size: 150%;
+}
+.navbar .nav {
+	float:none;
+}
+.navbar .nav li {
+	display:inline-block;
+	margin:0 0.5rem;
+	vertical-align:middle;
+}
+.navbar .nav li a:hover {
+	background: lightgray
+}
+
+.navbar .active {
+  background-color: #E3E3E3;
+  color: dimgrey;
 }
