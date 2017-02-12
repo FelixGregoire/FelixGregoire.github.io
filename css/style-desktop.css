@@ -1,5 +1,5 @@
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 48em) {
+@media screen and (min-width: 680px) {
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -22,7 +22,7 @@
 }
 
 /* Customize container */
-@media (min-width: 48em) {
+@media (min-width: 680px) {
   .container {
     max-width: 100rem;
   }
