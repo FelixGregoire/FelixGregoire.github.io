@@ -1,5 +1,5 @@
-/* tablet/smaller desktop */
-@media screen and (min-width: 680px) {
+/* tablet/smaller desktop -- 680-991px */
+@media (min-width: 680px) {
   /* Remove the padding we set earlier */
   .header,
   .marketing,
@@ -25,7 +25,7 @@
   }
 }
 
-/* full desktop */
+/* full desktop -- 992+px */
 @media (min-width: 992px) {
   #logo {
     display: inline-block;
