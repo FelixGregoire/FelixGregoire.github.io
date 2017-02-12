@@ -1,4 +1,4 @@
-/* Responsive: Portrait tablets and up */
+/* tablet/smaller desktop */
 @media screen and (min-width: 680px) {
   /* Remove the padding we set earlier */
   .header,
@@ -19,11 +19,24 @@
   .contact-element {
     font-size: 150%;
   }
-}
 
-/* Customize container */
-@media (min-width: 680px) {
   .container {
     max-width: 100rem;
+  }
+}
+
+/* full desktop */
+@media (min-width: 992px) {
+  #logo {
+    display: inline-block;
+    width: 12rem;
+    height: 10rem;
+    padding-right: 1rem;
+  }
+
+  #main-title {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 400%;
   }
 }

@@ -43,15 +43,15 @@ footer > #footer-contact {
 
 #logo {
     display: inline-block;
-    width: 12rem;
-    height: 10rem;
+    width: 8rem;
+    height: 6rem;
     padding-right: 1rem;
 }
 
 #main-title {
     display: inline-block;
     vertical-align: middle;
-    font-size: 500%;
+    font-size: 300%;
 }
 
 .topbar {
