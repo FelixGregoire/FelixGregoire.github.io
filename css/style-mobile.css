@@ -122,14 +122,13 @@ body{
 
 .navbar {
 	text-align:center;
-  font-size: 150%;
 }
 .navbar .nav {
 	float:none;
 }
 .navbar .nav li {
 	display:inline-block;
-	margin:0 0.5rem;
+	margin:0 0rem;
 	vertical-align:middle;
 }
 .navbar .nav li a:hover {
