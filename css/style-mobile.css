@@ -27,6 +27,8 @@ body {
 /* Custom page footer */
 .footer {
   padding-top: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   background-color: #ddd;
   border-top: .05rem solid #e5e5e5;
 }
@@ -58,6 +60,7 @@ footer > #footer-contact {
     padding: 3rem;
     margin-bottom: 0.5rem;
     background-color: #ddd;
+    overflow: hidden;
 }
 
 .bg-theme {
@@ -122,6 +125,7 @@ body{
 
 .navbar {
 	text-align:center;
+    overflow: hidden;
 }
 .navbar .nav {
 	float:none;

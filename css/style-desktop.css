@@ -1,9 +1,7 @@
 /* tablet/smaller desktop -- 680-991px */
 @media (min-width: 680px) {
-  /* Remove the padding we set earlier */
   .header,
-  .marketing,
-  .footer {
+  .marketing, {
     padding-right: 0;
     padding-left: 0;
   }
